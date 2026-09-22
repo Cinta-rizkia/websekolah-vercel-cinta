@@ -32,5 +32,4 @@ const router = createRouter({
     { path: '/contact', component: ContactPage },
   ],
 })
-
 export default router

@@ -14,6 +14,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: white;
+  background-color: rgb(217, 164, 223);
 }
 </style>

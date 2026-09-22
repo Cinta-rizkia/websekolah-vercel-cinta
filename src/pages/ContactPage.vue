@@ -46,10 +46,11 @@
 
 <style scoped>
 .banner {
-  background: #ce7fce; /* samakan dengan warna Landing Page & About Page */
-  color: #fdf9fd;
+  background:rgb(250, 209, 248); /* samakan dengan warna Landing Page & About Page */
+  color: #831843;
   text-align: center;
   padding: 3rem 1rem;
+  font-size: 95px;
 }
 
 .contact-content {

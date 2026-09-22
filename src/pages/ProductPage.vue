@@ -12,8 +12,13 @@ const daftarProduk = [
 ]
 </script>
 <template>
- <main>
- <h1>Produk Kami</h1>
+    <div>
+        <section class="benner">
+        <h1 class="benner-title">Produk Kami</h1>
+        <p class="benner-desc">temukan produk yang kalian cari</p>
+        </section>
+    </div>
+    <main>
  <div class="grid">
  <ProductCard
  v-for="produk in daftarProduk"
@@ -26,9 +31,37 @@ const daftarProduk = [
  </main>
 </template>
 <style scoped>
+.benner {
+    background-color: rgb(250, 209, 248);
+    color:#831843;
+    text-align: center;
+    padding: 60px 20px;
+}
+.benner-title{
+    margin: 0 0 22;
+    font-size: 3rem;
+}
+.benner-decs{
+    margin: 0%;
+    font-size: 5.5rem;
+    opacity: 0.6;
+}
 .grid {
- display: flex;
- gap: 16px;
- flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: stretch;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 </style>

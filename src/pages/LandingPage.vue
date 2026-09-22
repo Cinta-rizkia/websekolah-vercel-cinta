@@ -1,13 +1,19 @@
 <template>
   <div class="landing">
    
-    <section class="hero bg-indigo-500 p-[100px] flex-col items-center text-center text-white gap-[18px]">
-      <h1 class="text-[62pt] text-center">Tersedia semua jenis hijab</h1>
-      <p class="text-[28pt] landing-[80pt]">cari hijab apa?semua ada disini mulai dari warna model semuanya ada</p>
-<button
-      class="mb-8 mt-[40px] text-[24pt] bg-white text-indigo-500 px-[40px] py-[10px] rounded-4xl transition duration-150 hover:bg-blue-200 active:scale-95">
-      <router-link to="/product" class="hero-btn">Lihat Produk</router-link>
-    </button>
+     <section class="hero flex flex-col items-center gap-5 bg-gradient-to-br from-pink-100 
+     via-pink-200 to-pink-300 px-6 py-20 text-center text-pink-900 md:py-28">
+  <h1 class="max-w-3xl text-balance text-4xl font-serif leading-tight tracking-tight md:text-6xl">
+    Tersedia semua jenis hijab
+  </h1>
+  <p class="max-w-2xl text-balance text-lg font-serif leading-relaxed text-pink-900/80 md:text-2xl">
+    Cari hijab apa? Semua ada di sini, mulai dari warna dan model, semuanya lengkap.
+  </p>
+  <router-link
+    to="/product"
+    class="mt-4 inline-block rounded-full bg-pink-600 px-8 py-3 text-lg font-semibold
+     text-white transition duration-150 hover:bg-pink-700 active:scale-95 md:text-xl">Lihat Produk
+  </router-link>
       <center>
       <video controls width="480" loop>
  <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
@@ -59,7 +65,6 @@ export default {
   padding: 16px 32px;
   background-color: #ffffff;
 }
-
 .brand {
   font-weight: bold;
   font-size: 1rem;

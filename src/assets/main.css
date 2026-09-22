@@ -1,6 +1,7 @@
 @import './base.css';
  body{
   font-family: "arial", sans-serif;
+  background-color:rgb(250, 209, 248);
  }  
  .main {
   text-align: center;
