@@ -17,3 +17,13 @@
   background-color: rgb(217, 164, 223);
 }
 </style>
+<style scoped>
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 20px 50px;
+  
+}
+</style>
