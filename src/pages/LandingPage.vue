@@ -4,10 +4,10 @@
      <section class="hero flex flex-col items-center gap-5 bg-gradient-to-br from-pink-100 
      via-pink-200 to-pink-300 px-6 py-20 text-center text-pink-900 md:py-28">
   <h1 class="max-w-3xl text-balance text-4xl font-serif leading-tight tracking-tight md:text-6xl">
-    Tersedia semua jenis hijab
+    ✧*  🎀  𝒯𝑒𝓇𝓈𝑒𝒹𝒾𝒶 𝓈𝑒𝓂𝓊𝒶 𝒿𝑒𝓃𝒾𝓈 𝒽𝒾𝒿𝒶𝒷  🎀  *✧
   </h1>
   <p class="max-w-2xl text-balance text-lg font-serif leading-relaxed text-pink-900/80 md:text-2xl">
-    Cari hijab apa? Semua ada di sini, mulai dari warna dan model, semuanya lengkap.
+   ᴄᴀʀɪ ʜɪᴊᴀʙ ᴀᴘᴀ? ꜱᴇᴍᴜᴀ ᴀᴅᴀ ᴅɪ ꜱɪɴɪ, ᴍᴜʟᴀɪ ᴅᴀʀɪ ᴡᴀʀɴᴀ ᴅᴀɴ ᴍᴏᴅᴇʟ, ꜱᴇᴍᴜᴀɴʏᴀ ʟᴇɴɢᴋᴀᴘ.
   </p>
   <router-link
     to="/product"
@@ -43,7 +43,7 @@
     
     <!-- FOOTER -->
     <footer class="footer">
-      <p>azzahrascraf_</p>
+      <p>✳  🎀  𝒶𝓏𝓏𝒶𝒽𝓇𝒶𝓈𝒸𝓇𝒶𝒻_  🎀  ✳</p>
     </footer>
   </div>
 </template>

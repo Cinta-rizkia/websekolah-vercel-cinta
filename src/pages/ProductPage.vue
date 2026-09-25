@@ -14,8 +14,8 @@ const daftarProduk = [
 <template>
     <div>
         <section class="benner">
-        <h1 class="benner-title">Produk Kami</h1>
-        <p class="benner-desc">temukan produk yang kalian cari</p>
+        <h1 class="benner-title">✳｡  🎀  𝒫𝓇❀𝒹𝓊𝒸𝓉 𝒦𝒶𝓂𝒾  🎀  ｡✳</h1>
+        <p class="benner-desc">ᴛᴇᴍᴜᴋᴀɴ ᴘʀᴏᴅᴜᴋ ʏᴀɴɢ ᴋᴀʟɪᴀɴ ᴄᴀʀɪ</p>
         </section>
     </div>
     <main>

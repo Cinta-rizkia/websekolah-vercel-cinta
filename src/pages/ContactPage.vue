@@ -6,7 +6,7 @@
   <div class="contact-page">
     <!-- Banner -->
     <section class="banner">
-      <h1>Hubungi Kami</h1>
+      <h1>🍫  🎀  𝐻𝓊𝒷𝓊𝓃𝑔𝒾 𝒦𝒶𝓂𝒾  🎀  🍫</h1>
     </section>
 
     <!-- Info Kontak & Formulir -->

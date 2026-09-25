@@ -105,7 +105,7 @@ import TeamCard from '../components/TeamCard.vue'
 
 const daftarTim = [
   { nama: 'Cinta', jabatan: 'Founder & Owner' },
-  { nama: 'Aqila', jabatan: 'Admin & Customer Service' },
+  { nama: 'Sabrina', jabatan: 'Admin & Customer Service' },
   { nama: 'Indira', jabatan: 'Kepala Produksi' },
 ]
 </script>
@@ -114,19 +114,21 @@ const daftarTim = [
   <div class="about-page">
     <!-- Banner -->
     <section class="banner">
-      <h1>Tentang Kami</h1>
+      <h1>｡:  🎀  𝒯𝑒𝓃𝓉𝒶𝓃𝑔 𝒦𝒶𝓂𝒾  🎀  :｡</h1>
     </section>
 
     <!-- Cerita Kami -->
     <section class="cerita-kami">
       <div class="teks">
-        <h2>Cerita Kami</h2>
+        <h2>🍭  🎀  𝒞𝑒𝓇𝒾𝓉𝒶 𝒦𝒶𝓂𝒾  🎀  🍭</h2>
         <p>
-          Toko kami berawal dari sebuah usaha kecil di rumah yang dijalankan
-          bersama teman-teman kuliah. Bermula dari hobi, kami mulai menjual
-          produk secara online dan perlahan mendapat kepercayaan dari
-          pelanggan sekitar kampus. Kini kami terus belajar dan berkembang
-          untuk memberikan produk dan pelayanan terbaik.
+          𝐓𝐨𝐤𝐨 𝐤𝐚𝐦𝐢 𝐛𝐞𝐫𝐚𝐰𝐚𝐥 𝐝𝐚𝐫𝐢 𝐬𝐞𝐛𝐮𝐚𝐡 𝐮𝐬𝐚𝐡𝐚 𝐤𝐞𝐜𝐢𝐥 𝐝𝐢 𝐫𝐮𝐦𝐚𝐡 𝐲𝐚𝐧𝐠 
+          𝐝𝐢𝐣𝐚𝐥𝐚𝐧𝐤𝐚𝐧 𝐛𝐞𝐫𝐬𝐚𝐦𝐚 𝐭𝐞𝐦𝐚𝐧-𝐭𝐞𝐦𝐚𝐧 𝐤𝐮𝐥𝐢𝐚𝐡. 𝐁𝐞𝐫𝐦𝐮𝐥𝐚 𝐝𝐚𝐫𝐢 𝐡𝐨𝐛𝐢,
+           𝐤𝐚𝐦𝐢 𝐦𝐮𝐥𝐚𝐢 𝐦𝐞𝐧𝐣𝐮𝐚𝐥 𝐩𝐫𝐨𝐝𝐮𝐤 𝐬𝐞𝐜𝐚𝐫𝐚 𝐨𝐧𝐥𝐢𝐧𝐞 𝐝𝐚𝐧 𝐩𝐞𝐫𝐥𝐚𝐡𝐚𝐧
+            𝐦𝐞𝐧𝐝𝐚𝐩𝐚𝐭 𝐤𝐞𝐩𝐞𝐫𝐜𝐚𝐲𝐚𝐚𝐧 𝐝𝐚𝐫𝐢 𝐩𝐞𝐥𝐚𝐧𝐠𝐠𝐚𝐧 𝐬𝐞𝐤𝐢𝐭𝐚𝐫 𝐤𝐚𝐦𝐩𝐮𝐬. 𝐊𝐢𝐧𝐢
+             𝐤𝐚𝐦𝐢 𝐭𝐞𝐫𝐮𝐬 𝐛𝐞𝐥𝐚𝐣𝐚𝐫 𝐝𝐚𝐧 𝐛𝐞𝐫𝐤𝐞𝐦𝐛𝐚𝐧𝐠 𝐮𝐧𝐭𝐮𝐤 𝐦𝐞𝐦𝐛𝐞𝐫𝐢𝐤𝐚𝐧 𝐩𝐫𝐨𝐝𝐮𝐤 𝐝𝐚𝐧 
+             𝐩𝐞𝐥𝐚𝐲𝐚𝐧𝐚𝐧 𝐭𝐞𝐫𝐛𝐚𝐢𝐤.
+
         </p>
       </div>
       <div class="gambar">
@@ -139,7 +141,7 @@ const daftarTim = [
 
     <!-- Tim Kami -->
     <section class="tim-kami">
-      <h1>Tim Kami</h1>
+      <h1>🐇  🎀  𝒯𝐼𝑀 𝒦𝒜𝑀𝐼  🎀  🐇</h1>
       <div class="grid-tim">
         <TeamCard
           v-for="anggota in daftarTim"
